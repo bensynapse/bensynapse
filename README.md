@@ -4,7 +4,7 @@
 
 I run [Synapse](https://synapsereality.io/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse), an AI-native growth engineering agency, since 2018. We build software and the demand for it. That means APIs, data pipelines, AI automations, and the search and answer-engine work that brings people to them.
 
-| | |
+| Where | Link |
 |---|---|
 | Website | [synapsereality.io](https://synapsereality.io/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) |
 | Services | [synapsereality.io/services](https://synapsereality.io/services/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) |

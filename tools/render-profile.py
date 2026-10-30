@@ -74,7 +74,7 @@ def sculpture(cx, cy, radius, palette):
 
 def artwork(font, mobile):
     p = {name: f"var(--{name})" for name in ("base", "text", "muted", "synapse", "tennis", "wire", "edge")}
-    width, height = (720, 650) if mobile else (1200, 410)
+    width, height = (720, 710) if mobile else (1200, 410)
     body = [f'<rect width="{width}" height="{height}" rx="14" fill="{p["base"]}"/>']
     if mobile:
         body.append(sculpture(497, 412, 176, p))
@@ -83,17 +83,20 @@ def artwork(font, mobile):
         body.append(lettering(font, "live tennis data.", 45, 225, 40, p["muted"]))
         body.append(lettering(font, "Synapse", 45, 548, 44, p["synapse"], 600))
         body.append(lettering(font, "Live Tennis API", 45, 608, 44, p["text"], 600))
+        body.append(lettering(font, "Fax for Agents", 45, 668, 44, p["text"], 600))
         body.append(f'<path d="M 45 257 L 171 257" stroke="{p["synapse"]}" stroke-width="3"/>')
     else:
         body.append(sculpture(961, 206, 164, p))
         body.append(lettering(font, "Ben Abulafia", 52, 137, 85, p["text"], 650))
         body.append(lettering(font, "Software, AI & live tennis data.", 56, 195, 30, p["muted"]))
         body.append(f'<path d="M 56 239 L 182 239" stroke="{p["synapse"]}" stroke-width="3"/>')
-        body.append(lettering(font, "Synapse", 56, 314, 36, p["synapse"], 600))
-        body.append(lettering(font, "Live Tennis API", 266, 314, 36, p["text"], 600))
-        body.append(f'<path d="M 232 285 L 232 319" stroke="{p["edge"]}" stroke-width="2"/>')
+        body.append(lettering(font, "Synapse", 56, 314, 30, p["synapse"], 600))
+        body.append(lettering(font, "Live Tennis API", 231, 314, 30, p["text"], 600))
+        body.append(lettering(font, "Fax for Agents", 501, 314, 30, p["text"], 600))
+        for divider in (203, 473):
+            body.append(f'<path d="M {divider} 289 L {divider} 318" stroke="{p["edge"]}" stroke-width="2"/>')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">
-<title id="title">Ben Abulafia. Synapse and Live Tennis API.</title>
+<title id="title">Ben Abulafia. Synapse, Live Tennis API and Fax for Agents.</title>
 <desc id="description">Software, AI and live tennis data. A tennis ball at the center of connected data paths.</desc>
 <style>
 svg {{ --base:#f5f8f6; --text:#15261d; --muted:#50645a; --synapse:#087a57; --tennis:#138139; --wire:#459467; --edge:#dce6de; }}

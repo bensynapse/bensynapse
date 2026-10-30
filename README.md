@@ -1,9 +1,10 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile-mobile.svg">
-  <img src="assets/profile.svg" alt="Ben Abulafia. Software, AI and live tennis data. Synapse and Live Tennis API." width="100%">
+  <img src="assets/profile.svg" alt="Ben Abulafia. Software, AI and live tennis data. Synapse, Live Tennis API and Fax for Agents." width="100%">
 </picture>
 
-I'm Ben, the founder of [Synapse](https://synapsereality.io/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) and the builder behind [Live Tennis API](https://livetennisapi.com/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse).
+I'm Ben, and I founded [Synapse](https://synapsereality.io/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse).
+At Synapse I built [Live Tennis API](https://livetennisapi.com/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) and [Fax for Agents](https://faxforagents.com/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) for developers and their agents.
 I work on the software, the data behind it, and how people find it.
 
 ## Synapse
@@ -26,6 +27,20 @@ Open-source SDKs and an MCP server help developers connect that data to apps and
 
 Build with [Python](https://github.com/livetennisapi/livetennisapi-python), [TypeScript](https://github.com/livetennisapi/livetennisapi-js), [MCP](https://github.com/livetennisapi/livetennisapi-mcp), or the [OpenAPI specification](https://github.com/livetennisapi/openapi).
 Browse the rest at [github.com/livetennisapi](https://github.com/livetennisapi).
+
+## Fax for Agents
+
+**Fax for AI agents, with a receipt for every job.**
+
+A fax API, a hosted MCP server and SDKs let AI agents send and receive faxes.
+Approvals, budgets and signed webhooks keep each send inside the limits you set, and the sandbox is free.
+
+[Explore Fax for Agents](https://faxforagents.com/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) · [Documentation](https://faxforagents.com/docs/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) · [MCP setup](https://faxforagents.com/docs/mcp-setup/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse) · [Free sandbox quickstart](https://faxforagents.com/docs/quickstart/?utm_source=github&utm_medium=profile&utm_campaign=bensynapse)
+
+Build with [Python](https://github.com/faxforagents/sdk-python), [TypeScript](https://github.com/faxforagents/sdk-typescript), [MCP](https://github.com/faxforagents/mcp), or the [OpenAPI specification](https://github.com/faxforagents/openapi).
+The packages are `faxforagents` on [PyPI](https://pypi.org/project/faxforagents/) and [npm](https://www.npmjs.com/package/faxforagents).
+The MCP server is [`faxforagents-mcp`](https://www.npmjs.com/package/faxforagents-mcp) on npm.
+Browse the rest at [github.com/faxforagents](https://github.com/faxforagents).
 
 ### Have something in mind?
 
